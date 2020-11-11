@@ -1,6 +1,13 @@
 
-
-h2.red-text {
+/*
+footer nav.newsletter h2 {
     color: red;
+}
+*/
+footer nav:nth-child(2) h2 {
+	color: red;
+}
+footer nav.newsletter > input[type="email"]:invalid {
+	background-color: red;
 }
 
